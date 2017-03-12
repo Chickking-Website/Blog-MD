@@ -20,7 +20,7 @@
 
 我就挑主要的来介绍一下:  
 ### a) HTML DOM
-这次编写 Keypad 对我来说收益匪浅，HTML DOM 的学习无疑是我最大的收获。下面主要讲讲 Keypad 中 HTML DOM 的应用。
+这次编写 Keypad 对我来说受益匪浅，HTML DOM 的学习无疑是我最大的收获。下面主要讲讲 Keypad 中 HTML DOM 的应用。
 <p style="color:red">推荐大家对照代码阅读。</p>
 
 #### I. Substring
