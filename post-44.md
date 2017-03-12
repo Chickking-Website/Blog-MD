@@ -1,4 +1,4 @@
-<!-- 【Mixed】Emlog 变量剖析+Keypad 开发心得 -->
+<!-- 【Mixed】Emlog 变量剖析+Keypad 开发心得+acme.sh -->
 这个博文写之前完全不知道怎么起标题……最近的技术学习比较杂乱，在这里略作笔记。
 ## 1. EMLOG 常用变量
 最近萨德事件升温，之前对韩国没啥好感也恶感不多，这次实在是怒了，于是 Livere 直接成为祭品。之前一直没有换评论系统的原因是多说要根据每个网页修改 data-thread-key、data-title 和 data-url，之前还没找好解决方案。后来灵机一动，EMLOG 不是基于 PHP 的吗？扒一下 EMLOG 的变量不就 OK 了？于是前往了 EMLOG 的[官方 wiki](http://wiki.emlog.net/doku.php?id=tpldev)，发现了不少变量，但是似乎没同步更新，已经 out of date 了。扒了下程序代码，整理出了常用变量。如下表:  
@@ -127,4 +127,17 @@ switch (i) {
 
 那个，electron 怎么打包来着？谁教教我啊，prebuilt  装不了，packager 又需要 prebuilt……
 
+## 3. acme.sh
+之前用 [sslforfree.com](https://sslforfree.com) 实现了获取证书，但我不满意，通过 acme.sh+cron 可以实现定时更新证书。
+首先我在 DNSPod 获取了 token，写了个脚本。贴上来了:
+````bash
+#!/bin/bash
+export DP_Id="1234"
+export DP_Key="KEY0000"
+~/acme.sh/acme.sh --renew --force --dns dns_dp -d example.com -d a.example.com
+````
+通过 cron，可以令他 60 天 renew 一次。
+````cron
+0 0 1 */2 * "~/getssl.sh" > /dev/null
+````
 先闪了，回头在写一些有的没的。
