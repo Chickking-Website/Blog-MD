@@ -1,4 +1,5 @@
-<!-- 标题：【Hack】AppleALC 驱动 CX20751/2 声卡实战 -->
+【Hack】AppleALC 驱动 CX20751/2 声卡实战
+---
 2017 了哈，新年新气象。趁着 1 月 1 日，一番捣鼓把一度以为无解的 Mom's 电脑上的声卡 CX20751/2 驱动了。感觉心里的一块大石头落地了呢，毕竟给她装了黑苹果却让她无法使用声卡怎么说也不是个事啊，愧疚感终于消除了！！
 ## 1. 准备工作
 首先我们需要去下载一个 macOS 下的 App 叫做 <a href="https://github.com/Mirone/AppleHDAPatcher">AppleHDA Patcher.app</a>，点击蓝链可以去 GitHub 下载。
