@@ -1,6 +1,6 @@
-弄了一个 Parse LaTeX 公式的 API 
+做了一个 Parse LaTeX 公式的 API 
 ---
-随便说一下吧，今天上午用 php+Node.js+Java 利用 MathJax 撸了一个 LaTeX 公式转图片的 API，大家悠着点用。
+随便说一下吧，今天上午用 php+Node.js+Java 利用 MathJax 做了一个 LaTeX 公式转图片的 API，大家悠着点用。
 
 ## API 名称
 /math.php
