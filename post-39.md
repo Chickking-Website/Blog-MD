@@ -68,7 +68,7 @@ sudo rm -f /System/Library/CoreServices/Menu Extras/Battery.menu/Contents/Resour
 
 <p style="color: red;">!! 以下内容建议对照 ApplePS2SmartTouchPad.kext/Contents/Info.plist  的结构阅读！</p>
 
-首先从树形结构的 Root 触发，找到 IOKitPersonalities $\xrightarrow{}$ Smart-Pad $\xrightarrow{}$ Preferences。这下方有多种手势。可以根据自己的需要修改，基本上只要会了英语单词都能看懂，在此先给一个文档的链接，在这个链接中有详细的介绍：<a href="http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/">传送门</a>（英语）
+首先从树形结构的 Root 触发，找到 IOKitPersonalities $\rightarrow$ Smart-Pad $\rightarrow$ Preferences。这下方有多种手势。可以根据自己的需要修改，基本上只要会了英语单词都能看懂，在此先给一个文档的链接，在这个链接中有详细的介绍：<a href="http://forum.osxlatitude.com/index.php?/topic/5966-details-about-the-smart-touchpad-driver-features/">传送门</a>（英语）
 
 在该驱动中，不同的手势对应的不同动作是通过数字编号来定义的，比如我设置的 5FingersPinchAction 的值为 3，这就定义了五指捏合或散开则开关 Launchpad。关于哪个键值对应哪个手势，我从外网链接回来大家看看。
 
