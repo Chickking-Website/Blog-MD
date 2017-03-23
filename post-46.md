@@ -1,7 +1,7 @@
-让 emlog 支持 Markdown
+让 emlog 支持 Markdown 
 ---
 现在很多博客系统比如 Typecho、Hexo 等等都支持 Markdown 写作，然而 emlog 竟然不支持，这不够科学，不够优雅，所以我们要让它优雅起来。  
-接下来就要实战解决 Markdown 的问题
+接下来就要实战解决 Markdown 的问题。
 ## 删除自带编辑器
 emlog 自带的 KindEditor 不实用，首先功能半残不说，从 HTML 源代码模式切换过来还有 BUG。所以为了防止 KindEditor 坏事，我们要删除它。  
 删除 KindEditor 非常简单，我们只需要在博客主目录下 `admin/views` 下的 `add_log.php`、`add_page.php`、`edit_log.php`、`edit_page.php` 中删除/注释掉下列代码:  
@@ -11,12 +11,12 @@ emlog 自带的 KindEditor 不实用，首先功能半残不说，从 HTML 源�
 ```
 这样再修改文章、页面时，你就只会看到一个`<textarea>`，而不会看到编辑器的界面了。  
 这个文本框只会原封不动地显示博文的 HTML 代码，所以基本不可能用这个直接写作。  
-如果你希望简便一些，可以装个 Editor.md，不过有 bug，如果一般的写文字，Editor.md 就足够了，做 《EMLOG 大前端》模板的“小草”封装过一个，[下载链接 »](http://www.emlog.net/plugin/download/269)。但是如果代码多，并且 `h1-h6` 如果连续且中间没有任何内容，就会无法解析。BUG 复现例子:
+如果你希望简便一些，可以装个插件“Markdown for emlog”，不过有 bug，如果一般的写文字，这个插件就足够了，做 《EMLOG 大前端》模板的“小草”封装的，封装了一个 Editor.md，[下载链接 »](http://www.emlog.net/plugin/download/269)。但是如果代码多，并且 `h1-h6` 如果连续且中间没有任何内容，就会无法解析。BUG 复现例子:
 ```markdown
 ## 12345
 ### 67890
 ```
-这样一定会出 BUG。所以如果你想用的爽，就 follow me 吧。如果你不在乎或者你不会出现上面的情况，下面就不用看了，直接用小草封装的 Editor.md 即可。  
+这样一定会出 BUG。所以如果你想用的爽，就 follow me 吧。如果你不在乎或者你不会出现上面的情况，下面就不用看了，直接用小草封装的插件即可。  
 ## 安装 Markdown 编辑器
 前面已经说过，去掉原有编辑器，基本无法直接在 Emlog 中编辑了。但是我们可以手动加入 Editor.md，只要它不把自己解析好的 HTML 发送就可以，因为我们是需要使用插件来解析 Markdown。  
 在之前提到过的四个 php 文件中加入如下代码:
