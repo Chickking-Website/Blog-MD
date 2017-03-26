@@ -43,4 +43,5 @@ applyer.innerText = source.innerHTML;
 ```
 <textarea class="editormd-markdown-textarea" style="display:none;"><?php $logDay = gmdate('Y-n-j', $date);$logSec = strtotime($logDay);if ($logSec > 1476439200) echo htmlspecialchars(file_get_contents("https://chickking-website.github.io/Blog-MD/" . 'post-' . $_GET['gid'] . '.md')); else echo $content; ?></textarea>
 ```
+而且这样还实现了我修改文章无需复制修改后的原文去管理后台，只要 push 到 GitHub 后打开管理后台之后保存即可。  
 这样就近乎完美实现了 emlog 支持 Markdown 这一目标。
