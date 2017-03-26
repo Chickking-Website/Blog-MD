@@ -1,5 +1,9 @@
 【Mixed】Emlog 变量剖析+Keypad 开发心得+acme.sh 
 ---
+目录:
+
+[TOC]
+
 这个博文写之前完全不知道怎么起标题……最近的技术学习比较杂乱，在这里略作笔记。
 ## 1. EMLOG 常用变量
 最近萨德事件升温，之前对韩国没啥好感也恶感不多，这次实在是怒了，于是 Livere 直接成为祭品。之前一直没有换评论系统的原因是多说要根据每个网页修改 data-thread-key、data-title 和 data-url，之前还没找好解决方案。后来灵机一动，EMLOG 不是基于 PHP 的吗？扒一下 EMLOG 的变量不就 OK 了？于是前往了 EMLOG 的[官方 wiki](http://wiki.emlog.net/doku.php?id=tpldev)，发现了不少变量，但是似乎没同步更新，已经 out of date 了。扒了下程序代码，整理出了常用变量。如下表:  

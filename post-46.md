@@ -1,5 +1,10 @@
 让 emlog 支持 Markdown 
 ---
+目录:
+
+[TOC]
+
+更新: 通过 Editor.md 可以获得更好的 Parse 效果，所以 Markdown Parser 部分已经弃用。  
 现在很多博客系统比如 Typecho、Hexo 等等都支持 Markdown 写作，然而 emlog 竟然不支持，这不够科学，不够优雅，所以我们要让它优雅起来。  
 接下来就要实战解决 Markdown 的问题。
 ## 删除自带编辑器

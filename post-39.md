@@ -1,5 +1,9 @@
 【Hack】ASUS Pro451L 黑苹果 98% 完美 
 ---
+目录:
+
+[TOC]
+
 哈哈，终于到了寒假，又可以浪一番了。这一阵子搞黑苹果倒是搞得很欢。话不多说，刚刚把老妈的本子 98% 完美了。放一下我都干了啥吧。
 ## 1. 机器介绍
 #### a) 配置单
@@ -74,7 +78,8 @@ sudo rm -f /System/Library/CoreServices/Menu Extras/Battery.menu/Contents/Resour
 
 <img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-50400800-1461153149.png"></img>
 <img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-01840600-1461159119.png"></img>
-<img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-51977900-1461164551.png"></img><img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-30506100-1461164558.png"></img>
+<img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-51977900-1461164551.png"></img>
+<img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-30506100-1461164558.png"></img>
 <img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-20150000-1461168882.png"></img>
 <img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-19740900-1461168889.png"></img>
 <img src="http://forum.osxlatitude.com/uploads/monthly_04_2016/post-7370-0-78425700-1461170261.png"></img>
