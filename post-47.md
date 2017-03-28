@@ -32,7 +32,7 @@
         </script>
 ```
 ## 2.添加 Parser
-首先，我们在 emlog 的`admin/views`中上一个博文提到的四个 php 文件中 form 里的合适位置处插入一个 `<textarea>`，并命名其 name 和 id 为 `content`。通过审查元素我们发现: Editor.md 的 Markdown Preview Div 的 ClassName 为 `markdown-body editormd-preview-container`，且整个 HTML 中拥有此 ClassName 的有且只有这一个。所以我们可以通过令这个 `<textarea>` 的 `innerText` 属性等于 Preview Div 的 `innerHTML` 属性来实现 Parse。于是代码如下:
+首先，我们在 emlog 的`admin/views`中上一个博文提到的四个 php 文件中 form 里的合适位置处插入一个 `<textarea>`，并命名其 name 和 id 为 `content`。通过审查元素我们发现: Editor.md 的 Markdown Preview Div 的 ClassName 为 `markdown-body editormd-preview-container`，且整个编辑界面 HTML DOM 树中拥有此 ClassName 的有且只有这一个。所以我们可以通过令这个 `<textarea>` 的 `innerText` 属性等于 Preview Div 的 `innerHTML` 属性来实现 Parse。于是代码如下:
 ```javascript
 var applyer = document.getElementById('content');
 var source = document.getElementsByClassName('markdown-body editormd-preview-container')[0];
