@@ -20,7 +20,8 @@ GET
 指定返回格式，请按下列要求填写:
 + SVG : `svg`
 + PNG : `png`
-+ HTML : `htmlcss`
++ 完整的 HTML+CSS : `htmlcss`
++ HTML 代码 : `html`
 + MathML : `mml`
 
 ##### `dpi` 可选
