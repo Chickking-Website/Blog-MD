@@ -1,5 +1,5 @@
 【Mixed】网站架构改造 
----
+===
 目录:
 
 [TOC]
@@ -7,7 +7,7 @@
 昨天是貌似是情人节？咳咳，别想那些没用的、与自己无关的节日，昨天是 ENIAC 诞生 71 周年，这才是正道。  
 那顺手就给网站做个改造，这次也把之前的那几个改动整理整理，主要分为几个部分。
 
-#### Part 1. GitHub 助力, 静态资源存放
+### Part 1. GitHub 助力, 静态资源存放
 [Mar 25th 2017 14:17 更新] 静态资源已经存放到了国内的 [coding.net](https://coding.net/)，只需 CNAME 解析即可。   
 ~~我们知道，网站一般要将静态资源存放在单独的服务器上，由于资金原因*(其实就是穷)*，单独服务器是用不起，纯粹的静态资源比如图片什么的是不怕别人知道目录树的。于是干脆就想到了 GitHub，毕竟 GitHub 的服务可是杠杠的。  
 由于当时想尝试一个评论系统，当时注册了一个新的 GitHub 帐户，创建新的仓库。看起来直接用 GitHub Pages 比较好，但是这样绑定域名后就无法使用 https 功能了，这可比较坑爹了。还好 nginx 可以做反向代理，这样就可以把请求先 https 后转发给 GitHub 了。  
@@ -35,9 +35,9 @@ server {
 ~~删节掉了 SSL 证书部分，你懂得。  
 静态资源可以直接上传到 GitHub。~~  
 <img src="https://static.chickger.pw/201701/GitHub-asset.png"></img>
-#### Part 2. Let's Encrypt, 证书替换
+### Part 2. Let's Encrypt, 证书替换
 原来用的沃通感觉药丸，Apple、Mozilla、Google 都不信任它和它的上级 CA —— StartCom 了。所以选择更换到 Let's Encrypt。这里安利一个网站 [sslforfree.com](https://sslforfree.com/)，通过 acme.sh 来获取 SSL 证书，我使用的是 TXT DNS 验证，这种办法还算好，不怎么麻烦，但是设置好 DNS 的 TXT 记录后要略等几分钟来验证。以及千万要用 Chrome 打开这个网站，Safari 貌似不支持 blob: 协议，结果无法下载证书……遇到这种情况直接保存页面源码在 Chrome 里打开即可。
-#### Part 3. Web, 网站 UI 小修
+### Part 3. Web, 网站 UI 小修
 UI 部分没有动太多，填自己之前选择用这个模板的坑就不多说了。首先添加了一个提示条，这个是从 [Jerry Qu](https://imququ.com/) 大神那里看到的，就是对时间较久之前的文章给予提示。用 PHP 可以轻松造这个轮子。  
 <img src="https://static.chickger.pw/201701/Time_tips.png"></img>
 就是这个东西。
