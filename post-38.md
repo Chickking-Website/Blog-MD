@@ -21,7 +21,7 @@ $ git clone https://github.com/vit9696/AppleALC.git
 ## 2. 主要步骤
 重头戏来了。
 
-#### Step 1. 处理文件
+### Step 1. 处理文件
 这一步比较绕，注意不要删错了文件。
 
 进入 AppleALC/Resources/ 目录，删除除了你自己声卡型号之外的所有声卡型号，比如我就删除除了 CX20751_2 以外的所有声卡型号。
@@ -75,7 +75,7 @@ $ git clone https://github.com/vit9696/AppleALC.git
 
 这样第二步就结束了。
 
-#### Step 2. Xcode 编译打包成 kext 文件
+### Step 2. Xcode 编译打包成 kext 文件
 现在打开我们修改完了的 AppleALC 文件夹，打开 AppleALC.xcodeproj。建议你使用 Xcode 最新版本。请确保命令行工具安装完整。
 
 **检查之前所有的工作准备无误后**（非常重要，不然后来驱动不了你都不知哪里出了错），在 Xcode 的工具栏上点击 Project $\rightarrow$ Archive。
@@ -86,7 +86,7 @@ $ git clone https://github.com/vit9696/AppleALC.git
 
 前往之前得到的 MironeAudio 文件夹，将 CodecCommander 目录下的 CodecCommander.kext 复制到 ExportedKext 文件夹里面。此 kext 可以防止睡眠唤醒后无声。
 
-#### Step 3. 黑苹果机上配置 Clover
+### Step 3. 黑苹果机上配置 Clover
 
 在黑苹果上 Mount EFI 分区，进入 Clover 的文件夹。现将刚刚复制出来的两个 kext 复制到 Clover/Kexts/10.x(根据自己系统版本)下和 Other 下。（据说 macOS Sierra 10.11.2 版本下 Clover 无法注入 Kext？那就安装到 SLE 或者 LE 下）
 
@@ -107,7 +107,7 @@ $ git clone https://github.com/vit9696/AppleALC.git
 ```
 当然某些 DSDT 大神们也可以把这个注入 Layout ID 和防止唤醒无声的补丁都在 DSDT 里面解决了，效果会更好。不过我等蒟蒻还是算了，除了除错 DSDT 啥也不会~~我是不是废了……
 
-#### Step 4. 重启看效果
+### Step 4. 重启看效果
 明眼人一看这就是在讲(còu)玄(zì)学(shù)。不过重启一下看到音量图标一下子出来了，按下 Fn+F12 也能听见音量调节的嘟嘟声也是蛮令人激动的有木有。如果没有驱动上请赶紧检查上面的步骤有没有做错 or 面壁思过想想 2016 自己怎么搞的 RP-- :)
 
 ## 3. 评价
