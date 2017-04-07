@@ -6,7 +6,7 @@
 
 哈哈，终于到了寒假，又可以浪一番了。这一阵子搞黑苹果倒是搞得很欢。话不多说，刚刚把老妈的本子 98% 完美了。放一下我都干了啥吧。
 ## 1. 机器介绍
-#### a) 配置单
+### a) 配置单
 `` // 打钩项目为已驱动的项目。``
 
 CPU: Intel Core i5-4200U 2.39GHz <input type="checkbox" checked disabled /></input>
@@ -24,7 +24,7 @@ CPU: Intel Core i5-4200U 2.39GHz <input type="checkbox" checked disabled /></inp
 蓝牙: Broadcom BCM94352HMB <input type="checkbox" checked disabled /></input>
 
 系统版本： OS X El Capitan 10.11.6 (15G31)
-#### b) 不完美清单
+### b) 不完美清单
 + 电池已识别并可判断电池充放电状态以及计算剩余时间，但电池百分比无法显示 1%
 + 电脑自带的指纹识别器无法使用(可用 MacID 代替，反正 PC 笔记本上的指纹识别也不很好用) 0.44%
 + iMessage、FaceTime 和其他白果专用服务、硬件(如无痛升级)无法使用，以及时不时 iCloud 弹窗恶心人 0.55%
