@@ -16,17 +16,17 @@ https://api.chickger.pw/math.php
 ## HTTP 请求方式
 GET
 ## 请求参数
-** `type` 必需**  
+### `type` 必需 
 指定返回格式，请按下列要求填写:
 + SVG : `svg`
 + PNG : `png`
 + HTML : `htmlcss`
 + MathML : `mml`
 
-** `dpi` 可选 ** 
+### `dpi` 可选
 仅在`type`为`png`时需要传入，可选，若不填写默认为128，最大为512.
 
-** `tex` 必需 **
+### `tex` 必需
 传入经过 escape 后的 TeX 代码。
 
 ## 请求示例
