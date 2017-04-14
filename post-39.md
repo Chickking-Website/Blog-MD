@@ -9,17 +9,11 @@
 ### a) 配置单
 
 - [x] CPU: Intel Core i5-4200U 2.39GHz
-
 - [x] 内存: 4GB DDR3 1600MHz
-
 - [x] 硬盘: 日立 7200 转 500GB
-
 - [x] 显卡: Intel HD Graphics 4400 1536MB + NVIDIA GeForce 820M 2GB (Optimus 技术独显无法使用)
-
 - [x] 声卡: Conexant SmartAudio CX20751/2 (麦克风不可用)
-
 - [x] 网卡: Realtek RTL8168 + Broadcom BCM94352HMB(更换) 
-
 - [x] 蓝牙: Broadcom BCM94352HMB 
 
 系统版本： OS X El Capitan 10.11.6 (15G31)
