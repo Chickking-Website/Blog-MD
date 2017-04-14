@@ -7,21 +7,20 @@
 哈哈，终于到了寒假，又可以浪一番了。这一阵子搞黑苹果倒是搞得很欢。话不多说，刚刚把老妈的本子 98% 完美了。放一下我都干了啥吧。
 ## 1. 机器介绍
 ### a) 配置单
-`` // 打钩项目为已驱动的项目。``
 
-CPU: Intel Core i5-4200U 2.39GHz <input type="checkbox" checked disabled /></input>
+- [x] CPU: Intel Core i5-4200U 2.39GHz
 
-内存: 4GB DDR3 1600MHz <input type="checkbox" checked disabled /></input>
+- [x] 内存: 4GB DDR3 1600MHz
 
-硬盘: 日立 7200 转 500GB <input type="checkbox" checked disabled /></input>
+- [x] 硬盘: 日立 7200 转 500GB
 
-显卡: Intel HD Graphics 4400 1536MB <input type="checkbox" checked disabled /></input> + NVIDIA GeForce 820M 2GB <input type="checkbox"  disabled ></input> (Optimus 技术独显无法使用)
+- [x] 显卡: Intel HD Graphics 4400 1536MB + NVIDIA GeForce 820M 2GB (Optimus 技术独显无法使用)
 
-声卡: Conexant SmartAudio CX20751/2 <input type="checkbox" checked disabled ></input> (麦克风不可用)
+- [x] 声卡: Conexant SmartAudio CX20751/2 (麦克风不可用)
 
-网卡: Realtek RTL8168 + Broadcom BCM94352HMB(更换) <input type="checkbox" checked disabled /></input>
+- [x] 网卡: Realtek RTL8168 + Broadcom BCM94352HMB(更换) 
 
-蓝牙: Broadcom BCM94352HMB <input type="checkbox" checked disabled /></input>
+- [x] 蓝牙: Broadcom BCM94352HMB 
 
 系统版本： OS X El Capitan 10.11.6 (15G31)
 ### b) 不完美清单
