@@ -7,8 +7,8 @@
 最近家里的一台服役了 13 年的老笔记本退役了，本来是作为家里校园网 Dr.COM 验证的专用机器 + 内网 Web 服务器的。对于笔记本运行发出的噪音的不满，我决定不使用笔记本电脑或台式机来接替它，而是使用 iPhone。  
 ## 0. Dr.COM 验证程序
 ### a. 程序本身的配置
-最近闲逛 GitHub 时发现了一个可以直接用的 Dr.COM 认证的 Python 项目，叫做 [drcom_generic](https://github.com/drcoms/drcom-generic)。  
-**<span style="color: red;">注: 建议大家直接去看该项目的 wiki，这里的配置方法</span>**  
+最近闲逛 GitHub 时发现了一个可以直接用的 Dr.COM 认证的 Python 项目，而且也可以配合路由器使用，叫做 [drcom_generic](https://github.com/drcoms/drcom-generic)。  
+**<span style="color: red;">注: 建议大家直接去看该项目的 wiki，这里的 Dr.COM 配置方法不一定适合每一个校园网的网络环境。</span>**  
 首先我们 Clone 下来这个项目，然后我们不需要别的，先用 Wireshark 抓一下原版客户端登录的包，保存为 dump.pcapang。  
 然后打开 Auto Configure 工具，上传 pcapang 包，即可生成你独有的配置文件。  
 Example:
