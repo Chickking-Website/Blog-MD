@@ -89,6 +89,17 @@ iPhone 服务器相对来说较容易维护，我使用 Veency + OpenSSH 来维�
 Veency 是 iPhone 上的 VNC Server，可以让你通过 VNC 来控制 iPhone，大家下载了就知道。  
 给大家看看 Veency 的效果:
 ![Veency on iPhone](https://static.chickger.pw/201704/iPhoneVeency.png)
-OpenSSH 不必多说，诸位老司机都懂，但切记要把 root 密码 alpine 改掉，不然你的 iPhone 就不是你的了。
+OpenSSH 不必多说，诸位老司机都懂，但切记要把 root 密码 alpine 改掉，不然你的 iPhone 就不是你的了。  
+vsftpd 也有必要，这主要用于 iPhone Web Server 上资源下载目录的上传操作，直接上配置吧。路径: /etc/vsftpd.conf
+```
+local_root=/var/mobile/Documents/down/
+anon_root= /usr/share/empty
+listen=YES
+background=YES
+local_enable=YES
+write_enable=YES
+ftp_username=upload
+ftp_password=upload
+```
 ## 3. 结语
 iPhone 作为服务器还是十分给力的，首先配置相对大多数服务器要高，而且功耗小，运行无声音，发热也小，很适合扮演家庭服务器的角色。
