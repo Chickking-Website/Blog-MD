@@ -34,7 +34,8 @@ GET
 请求公式 $E = mc^2$:  
 Request URL:https://api.chickger.pw/math.php?tex=E%3Dmc%5E2&type=svg  
 Request Method:GET  
-Status Code:200 OK  
+HTTP Status: HTTP/2.0 200  
+MIME Type: image/svg+xml
 
 ## 返回数据示例
 ````xml
