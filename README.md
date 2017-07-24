@@ -9,12 +9,14 @@
 
 此人还取得了果教圣物 **macOS**，并使用它作为自身的神器。
 
-传言此人的修炼目标是进入江湖中赫赫有名的 No.1 High School。
+~~传言此人的修炼目标是进入江湖中赫赫有名的 No.1 High School。~~
+
+据小道消息说此人已经成功进入江湖中传说级的 No.1 High School。
 
 此人认为江湖上最无敌的必杀技是:&nbsp;&nbsp;“` sudo rm -rf -no-preserve-root / `”
 
 此人曾一语道破天机:
-> 单身狗们快去学习 JavaScript，实现面向对象编程的梦想（滑稽）
+> 传说中的面向对象编程:
 ```javascript
 var girlFriend = new Object();
 ```

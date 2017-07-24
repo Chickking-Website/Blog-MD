@@ -9,6 +9,7 @@
 ## 1.安装并配置 Editor.md
 安装 Editor.md 十分简单，我就不多说了，大家都会的。  
 重点在于配置 Editor.md，如何配置呢？这取决于你需要怎样的功能，这里推荐你去看看它的 [Examples](https://pandao.github.io/editor.md/examples/index.html)。
+
 我的需求是 HTML in Markdown、TOC、以及输出 HTML，流程图和时序图以后恐怕也会用到。我的配置如下:
 ```html
         <script type="text/javascript">
