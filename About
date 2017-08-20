@@ -1,7 +1,20 @@
 关于本站
 ===
 凌风仙鸡的 Blog&Diary 创建于 2016 年 1 月，由站长 [@凌风仙鸡](/README.html) 始创。意在分享、记录一下自己折腾科技的过程。  
-本站从初创发展到现在，更换了一次服务器。也做了许多小修小补，但总体来说离不开开源界和身边家人朋友的支持！
+本站从初创发展到现在，更换了一次服务器。也做了许多小修小补，但总体来说离不开开源界和身边家人朋友的支持！  
+本站源代码经过数次修改，架构也有所变化。有些大家喜爱的功能被删减，新的功能增加。总的来说是十分不错的。
+### 站务提示:
+1. [主页印象](/homepage.html)已经停止更新，回忆过去的朋友们可以去看看。
+2. 评论需要科学上网。
+
+### 本站使用技术:
+* CentOS 6
+* PHP 5
+* nginx
+* MariaDB (MySQL)
+* Python
+* Node.js
+* Java
 
 ### 现致谢如下:
 (排名不分先后)   
@@ -15,6 +28,7 @@
 感谢 [GitHub](https://github.com) 为本站托管 Markdown 源文件.  
 感谢 [Disqus](https://disqus.com/) 为本站提供评论服务！  
 感谢 [GNU](https://gnu.org) 为本站所使用的开源工具做出的贡献！  
+感谢 [CentOS](https://centos.org)、[PHP](https://php.net/)、[MariaDB](https://mariadb.org/) 的软件！   
 感谢 [Let's Encrypt](https://letsencrypt.org) 为本站提供免费 SSL 加密证书！  
 感谢 [emlog](http://emlog.net/) 和本站模板原作者 [蓝外蓝](http://www.lanwailan.com/).  
 (由于服务器安全因素，部分支持者未列入名单)
