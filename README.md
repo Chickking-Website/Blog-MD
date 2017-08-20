@@ -20,7 +20,9 @@ README.md
 Tags: <div style="line-height: 2"><span class="readme_tag">果粉</span><span class="readme_tag">米粉</span><span class="readme_tag">Python 学习者</span><span class="readme_tag">小屏手机爱好者</span><span class="readme_tag">知乎 er</span><span class="readme_tag">00 后</span><span class="readme_tag">品味独特</span><span class="readme_tag">Siri 控</span>
 </div>
 
-<div id="aplayer" class="aplayer"></div>
+<div style="width: 100%; text-align: center;">
+<div id="aplayer" class="aplayer" style="max-width: 565px"></div>
+</div>
 
 一名高一新生，    
 闲的没事喜欢鼓捣一些奇怪的东西，  
