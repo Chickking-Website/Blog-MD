@@ -42,4 +42,4 @@ qemu-img -f qcow2 -O size=10G Filename.qcow2
 你可以看看 QEMU 的帮助文档，发现更多有用、有趣的配置项，让你的 Mac OS 更加出彩。
 下面贴一张 Mac OS X v10.0 "Cheetah"  的运行图片:
 
-![Mac OS X Cheetah](https://static.chickger.pw/201709/osx10.0/First%20Boot%2017.png)
+![Mac OS X Cheetah](https://static.chickger.pw/201709/cheetah.png)
